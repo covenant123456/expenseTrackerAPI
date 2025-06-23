@@ -22,7 +22,7 @@ A secure and scalable RESTful API for managing **income**, **expenses**. Built w
 - **Validation**: Zod
 - **Authentication**: JWT
 - **API Docs**: Swagger (OpenAPI)
-- **Dev Tools**: Nodemon, dotenv, CORS, Morgan
+- **Dev Tools**: Nodemon, dotenv
 
 ---
 
