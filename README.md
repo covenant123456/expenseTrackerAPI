@@ -26,59 +26,6 @@ A secure and scalable RESTful API for managing **income**, **expenses**. Built w
 
 ---
 
-## 📦 Project Structure
-expense-tracker-api/
-├── src/
-│
-│   ├── config/               # Configuration files
-│   │   ├── database.js
-│   │   └── swagger.js
-│
-│   ├── modules/              # Feature-based separation
-│   │   ├── auth/
-│   │   │   ├── dto/
-│   │   │   │   ├── login.dto.js         # Zod schema for login
-│   │   │   │   └── register.dto.js      # Zod schema for register
-│   │   │   ├── auth.controller.js
-│   │   │   ├── auth.routes.js
-│   │   │   ├── auth.service.js
-│   │   │   ├── auth.model.js
-│   │   │   └── auth.utils.js
-│   │   │
-│   │   ├── expenses/
-│   │   │   ├── dto/
-│   │   │   │   └── expense.dto.js
-│   │   │   ├── expenses.controller.js
-│   │   │   ├── expenses.routes.js
-│   │   │   ├── expenses.service.js
-│   │   │   ├── expenses.model.js
-│   │   │ 
-│   │   │
-│   │   ├── income/
-│   │   │   ├── dto/
-│   │   │   │   └── income.dto.js
-│   │   │   ├── income.controller.js
-│   │   │   ├── income.routes.js
-│   │   │   ├── income.service.js
-│   │   │   └── income.model.js
-│   │   │
-│   │ 
-│   │   │
-│   ├── middlewares/
-│   │   ├── auth.middleware.js
-│   │   ├── validate.middleware.js  # Wraps Zod schemas
-│   │   
-│
-│   ├── app.js                 # Mount routes/middleware
-│   └── server.js              # Start server
-│
-│
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
-
-
 ## ⚙️ Project Setup
 
 ### 1. Clone the Repository
