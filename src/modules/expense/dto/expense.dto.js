@@ -1,7 +1,7 @@
 const { z } = require('zod');
 
-exports.incomeSchema = z.object({
-  amount: z.number().positive(),
+exports.expenseSchema = z.object({
+  amount: z.number().negative(),
   category: z.string().min(2),
   title: z.string().optional(),
   note: z.string().optional(),
